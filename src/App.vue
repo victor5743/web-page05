@@ -1,5 +1,5 @@
 <template>
-	<div class="font-roboto text-gray-800" id="app">
+	<div class="text-gray-800" id="app">
 		<Header />
 	</div>
 </template>

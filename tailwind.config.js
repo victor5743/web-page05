@@ -1,9 +1,28 @@
 module.exports = {
 	purge: [],
 	theme: {
+		fontFamily: {
+			sans: [
+				'Roboto',
+				'Arial',
+				'system-ui',
+				'-apple-system',
+				'BlinkMacSystemFont',
+				'"Segoe UI"',
+				'"Helvetica Neue"',
+				'"Noto Sans"',
+				'sans-serif',
+				'"Apple Color Emoji"',
+				'"Segoe UI Emoji"',
+				'"Segoe UI Symbol"',
+				'"Noto Color Emoji"',
+			],
+			raleway: ['raleway'],
+		},
 		extend: {
-			fontFamily: {
-				roboto: ['roboto'],
+			colors: {
+				blue: '#1c75bc',
+				'blue-dark': '#064f89',
 			},
 		},
 	},

@@ -1,9 +1,27 @@
 <template>
-	<p>
-		Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt illo, architecto
-		eligendi ratione fugit dolore voluptate in pariatur magni quod numquam similique quo
-		perferendis atque exercitationem expedita sit. Alias, sed.
-	</p>
+	<nav class="flex justify-between items-center py-6">
+		<!-- Logo -->
+		<a
+			class="flex items-center font-raleway font-medium font-semibold text-2xl ml-6"
+			href="#"
+		>
+			<img class="h-10 w-10" src="../assets/logo.png" alt="Logo" />
+			Web page
+		</a>
+
+		<!-- Navbar options -->
+		<ul class="flex uppercase tracking-wide font-bold items-center">
+			<li class="mr-8">
+				<a class="text-gray-800 hover:text-gray-700" href="#">Who I am</a>
+			</li>
+			<li class="mr-8">
+				<a class="text-gray-800 hover:text-gray-700" href="#">Portfolio</a>
+			</li>
+			<li class="mr-8">
+				<a class="text-gray-800 hover:text-gray-700" href="#">Contact</a>
+			</li>
+		</ul>
+	</nav>
 </template>
 
 <script>
