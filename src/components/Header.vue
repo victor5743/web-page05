@@ -12,13 +12,13 @@
 		<!-- Navbar options -->
 		<ul class="flex uppercase tracking-wide font-bold items-center">
 			<li class="mr-8">
-				<a class="text-gray-800 hover:text-gray-700" href="#">Who I am</a>
+				<a class="hover:text-gray-700" href="#">Who I am</a>
 			</li>
 			<li class="mr-8">
-				<a class="text-gray-800 hover:text-gray-700" href="#">Portfolio</a>
+				<a class="hover:text-gray-700" href="#">Portfolio</a>
 			</li>
 			<li class="mr-8">
-				<a class="text-gray-800 hover:text-gray-700" href="#">Contact</a>
+				<a class="hover:text-gray-700" href="#">Contact</a>
 			</li>
 		</ul>
 	</nav>
