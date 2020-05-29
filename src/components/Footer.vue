@@ -1,11 +1,11 @@
 <template>
 	<div class="bg-blue text-white px-8">
-		<div class="block lg:flex items-center justify-between py-8">
+		<div class="block md:flex items-center justify-between py-8">
 			<!-- Copyright -->
 			<p class="text-center">Copyrigth 2020. All rights reserved.</p>
 
 			<!-- Social media -->
-			<ul class="flex items-center text-gray-300 justify-center mt-4 lg:mt-0">
+			<ul class="flex items-center text-gray-300 justify-center mt-4 md:mt-0">
 				<!-- Facebook logo -->
 				<li class="mr-8">
 					<a href="#">
