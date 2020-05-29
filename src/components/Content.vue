@@ -2,7 +2,7 @@
 	<div class="flex-grow leading-relaxed mt-18 mb-6">
 		<!-- First section -->
 		<div class="flex text-md">
-			<div class="my-6 md:flex block mx-auto items-center">
+			<div class="my-10 md:my-6 md:flex block mx-6 md:mx-auto items-center">
 				<div class="text-4xl font-bold">
 					<p>Full-stack web developer</p>
 					<p class="text-blue">Welcome to my website</p>
@@ -12,7 +12,7 @@
 		</div>
 
 		<!-- Second section -->
-		<div class="mx-28">
+		<div class="mx-6 md:mx-28">
 			Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum earum, itaque alias
 			praesentium temporibus assumenda culpa animi deserunt ratione! Incidunt debitis
 			culpa optio, error exercitationem placeat aliquid fugit maxime quas maiores vitae
@@ -34,7 +34,7 @@
 					alt="Img"
 				/>
 				<img
-					class="h-40 md:h-48 md:ml-16 mx-auto"
+					class="h-40 md:h-48 md:ml-16 mx-auto hidden sm:block"
 					src="../assets/tailwind_css.svg"
 					alt="Img"
 				/>
@@ -42,17 +42,15 @@
 		</div>
 
 		<!-- Projects section -->
-		<div class="border-b border-t border-gray-500 mx-28">
+		<div class="border-b border-t border-gray-500 mx-6 md:mx-28">
 			<!-- Title -->
-			<h2 class="font-bold mb-6">Here some projects I've worked on:</h2>
+			<h2 class="font-bold mb-6 mt-6">Here some projects I've worked on:</h2>
 
 			<!-- List of projects -->
 			<ul class="text-blue">
 				<li v-for="item in projects" :key="item.id" class="flex mb-6 items-center">
 					<svg
-						class="fill-current"
-						width="20"
-						height="20"
+						class="fill-current h-6 w-6"
 						xmlns="http://www.w3.org/2000/svg"
 						viewBox="0 0 490.05 490.05"
 					>
@@ -66,6 +64,36 @@
 				</li>
 			</ul>
 		</div>
+
+		<!-- About me section -->
+		<div class="mx-6 md:mx-28 my-6 border-b border-gray-500">
+			<h2 class="font-bold">About me:</h2>
+
+			<!-- Image and text -->
+			<div class="block md:flex items-center">
+				<img
+					class="w-20 h-20 rounded-full mx-auto mb-4"
+					src="../assets/man.svg"
+					alt="User"
+				/>
+				<p class="md:ml-4">
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem libero
+					temporibus impedit quo consectetur, culpa delectus autem? Quaerat magnam sunt
+					delectus incidunt, ex qui esse accusamus provident modi, ad suscipit
+				</p>
+			</div>
+
+			<!-- Youtube video -->
+			<iframe
+				class="mx-auto mb-6"
+				width="560"
+				height="315"
+				src="https://www.youtube.com/embed/uHo6o1TNQeE"
+				frameborder="0"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+				allowfullscreen
+			></iframe>
+		</div>
 	</div>
 </template>
 
@@ -75,7 +103,7 @@ export default {
 		return {
 			projects: [
 				{
-					project: 'Laravel Ecommerce application tutorial on YOutube Github LInk here',
+					project: 'Laravel Ecommerce application tutorial on Youtube Github LInk here',
 				},
 				{
 					project: 'Home Value Inc. Some stuff about it there. Link here.',

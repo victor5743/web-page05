@@ -1,5 +1,8 @@
 <template>
-	<div class="font-sans tracking-wider text-gray-800 flex flex-col min-h-screen" id="app">
+	<div
+		class="font-sans tracking-wide md:tracking-wider text-gray-800 flex flex-col min-h-screen"
+		id="app"
+	>
 		<Header />
 		<Content />
 		<Footer />
