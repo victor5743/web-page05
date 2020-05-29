@@ -1,16 +1,16 @@
 <template>
 	<div class="bg-blue text-white px-8">
-		<div class="flex items-center justify-between py-8">
+		<div class="block lg:flex items-center justify-between py-8">
 			<!-- Copyright -->
-			<p>Copyrigth 2020. All rights reserved</p>
+			<p class="text-center">Copyrigth 2020. All rights reserved.</p>
 
 			<!-- Social media -->
-			<ul class="flex items-center text-white">
+			<ul class="flex items-center text-gray-300 justify-center mt-4 lg:mt-0">
 				<!-- Facebook logo -->
 				<li class="mr-8">
 					<a href="#">
 						<svg
-							class="fill-current"
+							class="fill-current hover:text-white"
 							width="22"
 							height="22"
 							viewBox="0 0 512 512"
@@ -27,7 +27,7 @@
 				<li class="mr-8">
 					<a href="#">
 						<svg
-							class="fill-current"
+							class="fill-current hover:text-white"
 							width="30"
 							height="30"
 							viewBox="-21 -117 682.667 682"
@@ -44,7 +44,7 @@
 				<li class="mr-8">
 					<a href="#">
 						<svg
-							class="fill-current"
+							class="fill-current hover:text-white"
 							width="22"
 							height="22"
 							id="Bold"
@@ -60,10 +60,10 @@
 				</li>
 
 				<!-- Twitter logo -->
-				<li class="mr-8">
+				<li>
 					<a href="#">
 						<svg
-							class="fill-current"
+							class="fill-current hover:text-white"
 							width="22"
 							height="22"
 							xmlns="http://www.w3.org/2000/svg"
