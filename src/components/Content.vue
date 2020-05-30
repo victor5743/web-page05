@@ -85,14 +85,51 @@
 
 			<!-- Youtube video -->
 			<iframe
-				class="mx-auto mb-6"
-				width="560"
-				height="315"
+				class="w-auto h-auto md:h-64 md:w-128 mb-6 mx-auto"
 				src="https://www.youtube.com/embed/uHo6o1TNQeE"
 				frameborder="0"
 				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
 				allowfullscreen
 			></iframe>
+		</div>
+
+		<!-- Contact section -->
+		<div class="border-b border-gray-500 mx-6 md:mx-28 my-6">
+			<h2 class="font-bold mb-6">Contact me:</h2>
+			<p class="mb-6">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur, natus?
+				Necessitatibus, magnam consectetur, aliquid animi saepe sit voluptatum velit eum
+				expedita officia deleniti. Exercitationem laborum sit alias aperiam aliquam earum!
+			</p>
+		</div>
+
+		<!-- Subscription section -->
+		<div class="bg-blue-light py-6 mx-6 md:mx-28 texture">
+			<!-- Text -->
+			<h2 class="font-bold mb-6 text-center">Join my Newsletter</h2>
+			<p class="text-center">
+				Lorem ipsum dolor sit amet consectetur, adipisicing elit. Praesentium, fuga
+				sapiente corrupti doloremque, rerum sunt in qui fugit quos illo ipsam cumque
+				obcaecati.
+			</p>
+
+			<!-- Input -->
+			<form action="#">
+				<div class="my-4 flex mx-6 md:mx-28 justify-center">
+					<input
+						class="flex-1 text-gray-400 px-4 py-2 rounded-md shadow-md outline-none border rounded-r-none focus:border-blue"
+						name="email"
+						type="email"
+						placeholder="Enter your email"
+						required
+					/>
+					<button
+						class="bg-blue hover:bg-blue-dark text-white rounded-md rounded-l-none px-4 py-2 focus:outline-none uppercase"
+					>
+						Suscribe
+					</button>
+				</div>
+			</form>
 		</div>
 	</div>
 </template>

@@ -23,10 +23,12 @@ module.exports = {
 			colors: {
 				blue: '#1c75bc',
 				'blue-dark': '#064f89',
+				'blue-light': '#f1f5f9',
 			},
 			spacing: {
 				'18': '4.5rem',
 				'28': '7rem',
+				'128': '32rem',
 			},
 		},
 	},
