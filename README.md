@@ -1,24 +1,12 @@
 # web-page05
 
-## Project setup
-```
-npm install
-```
+UI interface responsive. Website for a Full-Stack web developer using:
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
+- Vue JS
+- Tailwind CSS
 
-### Compiles and minifies for production
-```
-npm run build
-```
+## Application preview:
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+<p align="center"> 
+  <img src="./src/assets/preview.jpg" /> 
+</p>

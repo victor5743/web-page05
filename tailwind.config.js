@@ -23,7 +23,7 @@ module.exports = {
 			colors: {
 				blue: '#1c75bc',
 				'blue-dark': '#064f89',
-				'blue-light': '#f1f5f9',
+				'blue-light': '#edf6fc',
 			},
 			spacing: {
 				'18': '4.5rem',

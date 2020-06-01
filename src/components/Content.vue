@@ -118,7 +118,7 @@
 				<div class="my-4 block md:flex mx-6 md:mx-28 md:justify-center">
 					<div class="flex justify-center">
 						<input
-							class="sm:flex-1 text-gray-400 px-4 py-2 rounded-md shadow-md outline-none border md:rounded-r-none focus:border-blue"
+							class="sm:flex-1 text-gray-400 px-4 py-2 rounded-md shadow-md outline-none border md:rounded-r-none focus:border-blue text-gray-800"
 							name="email"
 							type="email"
 							placeholder="Enter your email"
@@ -145,16 +145,16 @@ export default {
 		return {
 			projects: [
 				{
-					project: 'Laravel Ecommerce application tutorial on Youtube Github LInk here',
+					project: 'Laravel Ecommerce application',
 				},
 				{
-					project: 'Home Value Inc. Some stuff about it there. Link here.',
+					project: 'Some stuff about it there. Link here.',
 				},
 				{
-					project: 'Here are some projects Ive worked on:',
+					project: 'Here are some projects',
 				},
 				{
-					project: 'Traditional resume in HTML format. PDF format here.',
+					project: 'Traditional resume in HTML format.',
 				},
 			],
 		};
