@@ -115,19 +115,24 @@
 
 			<!-- Input -->
 			<form action="#">
-				<div class="my-4 flex mx-6 md:mx-28 justify-center">
-					<input
-						class="flex-1 text-gray-400 px-4 py-2 rounded-md shadow-md outline-none border rounded-r-none focus:border-blue"
-						name="email"
-						type="email"
-						placeholder="Enter your email"
-						required
-					/>
-					<button
-						class="bg-blue hover:bg-blue-dark text-white rounded-md rounded-l-none px-4 py-2 focus:outline-none uppercase"
-					>
-						Suscribe
-					</button>
+				<div class="my-4 block md:flex mx-6 md:mx-28 md:justify-center">
+					<div class="flex justify-center">
+						<input
+							class="sm:flex-1 text-gray-400 px-4 py-2 rounded-md shadow-md outline-none border md:rounded-r-none focus:border-blue"
+							name="email"
+							type="email"
+							placeholder="Enter your email"
+							required
+						/>
+					</div>
+
+					<div class="flex justify-center">
+						<button
+							class="bg-blue hover:bg-blue-dark text-white rounded-md md:rounded-l-none px-4 py-2 focus:outline-none uppercase mt-4 md:mt-0"
+						>
+							Suscribe
+						</button>
+					</div>
 				</div>
 			</form>
 		</div>
